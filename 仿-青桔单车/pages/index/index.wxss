@@ -1,0 +1,58 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+ .map-box{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 150rpx;
+} 
+#map{
+  width: 100%;
+  height: 100%;
+}
+.qj-smjs{
+  width: 90%;
+  margin: 30rpx auto;
+  color: #fff;
+  background-color:#4a4c5b;
+}
+.img-cover{
+  position: absolute;
+  right: 20rpx;
+  bottom: 100rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.img-cover2{
+  position: absolute;
+  right: 20rpx;
+  bottom: 10rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+.img-cover1{
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  right: 20rpx;
+  bottom: 190rpx;
+}
+.img-cover3{
+  width: 75rpx;
+  height: 75rpx;
+  position: absolute;
+  right: 20rpx;
+  bottom: 280rpx;
+  border: 1px solid #edece8;
+  text-align: center;
+}
+.icon-img{
+  width: 60rpx;
+  height: 60rpx;
+  display: inline-block;
+  margin-top: 8rpx;
+}

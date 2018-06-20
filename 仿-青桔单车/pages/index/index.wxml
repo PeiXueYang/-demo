@@ -1,0 +1,25 @@
+<!--home  start  -->
+<view>
+  <!--地图 start  -->
+  <view class='map-box'>
+    <map id="map" longitude="{{longitude}}" markers="{{markers}}" scale='18' latitude='{{latitude}}' 
+     bindregionchange='regionchange'></map>
+    <view>
+      <cover-view class='img-cover3' bindtap='currentLocation'>
+        <cover-image  class='icon-img' src='/images/point_in_map.png' />
+      </cover-view>
+      <cover-view class='img-cover1'>
+        <cover-image src='/images/icon-msg.png' />
+      </cover-view>
+      <cover-view class='img-cover' bindtap='toUserInfo'>
+        <cover-image src='../../images/icon-user.png' />
+      </cover-view>
+      <cover-view class='img-cover2' bindtap='locationInfo'>
+        <cover-image src='/images/reset.png' />
+      </cover-view>
+      <button class='qj-smjs' bindtap='toScan'>扫码解锁</button>
+    </view>
+  </view>
+  <!--地图 end  -->
+</view>
+<!--home end  -->

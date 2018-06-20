@@ -1,0 +1,118 @@
+page {
+  background: #f3f4f5;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 380rpx;
+  background: #fff;
+  position: relative;
+  font-size: 28rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.userAvatarUrl {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+}
+
+.userNickName {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.account {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  text-align: center;
+}
+
+.route {
+  box-sizing: border-box;
+  width: 100%;
+  height: 130rpx;
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+}
+
+.qj-quan {
+  box-sizing: border-box;
+  width: 100%;
+  height: 130rpx;
+  background: #fff;
+  margin-top: 5rpx;
+  padding: 0 20rpx;
+}
+
+.qj-yueka {
+  box-sizing: border-box;
+  width: 100%;
+  height: 130rpx;
+  background: #fff;
+  margin-top: 5rpx;
+  padding: 0 20rpx;
+}
+
+.coupon, .qj-xc {
+  float: left;
+}
+
+.coupon {
+  width: 20%;
+  text-align: right;
+  padding-right: 30rpx;
+}
+
+.qj-xc {
+  width: 60%;
+  font-size: 38rpx;
+  margin-top: 30rpx;
+}
+
+.coupon-img, .img-right {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 40rpx;
+  display: inline-block;
+}
+
+.qj-small {
+  font-size: 22rpx;
+  color: gray;
+  line-height: 40rpx;
+}
+
+.img-right {
+  float: right;
+  margin-right: 20rpx;
+}
+
+.login-out {
+  box-sizing: border-box;
+  width: 100%;
+  height: 130rpx;
+  background: #fff;
+  margin-top: 30rpx;
+  padding: 0 20rpx;
+  text-align: center;
+  line-height: 130rpx;
+  font-size: 30rpx;
+  color: #fc9153;
+}
+.orange{
+  color: #fc9153;
+}

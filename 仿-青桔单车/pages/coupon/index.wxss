@@ -1,0 +1,17 @@
+page {
+  background: #f3f4f5;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.img-bike {
+  display: block;
+  margin: 200rpx auto;
+  width: 400rpx;
+  height: 400rpx;
+}
+.content{
+  text-align: center;
+  font-size: 30rpx;
+  color: #a3a3a3;
+}

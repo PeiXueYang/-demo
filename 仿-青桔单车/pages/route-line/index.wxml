@@ -1,0 +1,4 @@
+<view>
+   <image src='../../images/no-record.png' class='img-bike'></image>
+   <view class='content'>暂无行程</view>
+</view>

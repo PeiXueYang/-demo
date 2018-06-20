@@ -1,0 +1,5 @@
+<view>
+  <image src='../../images/no-record.png' class='img-bike'></image>
+  <!-- <image src='../../images/coupon.png' class='coupon'></image> -->
+  <view class='content'>暂无优惠券</view>
+</view>

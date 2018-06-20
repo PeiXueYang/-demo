@@ -1,0 +1,52 @@
+<view>
+  <view class='header'>
+    <view class='userAvatarUrl'>
+      <open-data type='userAvatarUrl'></open-data>
+    </view>
+    <view class='userNickName'>
+      <open-data type='userNickName'></open-data>
+    </view>
+    <view class='account'>
+      <text>账号:</text>
+      <text>{{phone}}</text>
+    </view>
+  </view>
+  <view class='route' bindtap='routeFun'>
+    <view class='coupon'>
+      <image src='../../images/stroke.png' class='coupon-img'></image>
+    </view>
+    <view class='qj-xc'>
+      <view>行程</view>
+      <view class='qj-small'>最近三个月骑行 <text class='orange'>{{counter}}</text> </view>
+    </view>
+    <view>
+      <image class='img-right' src='../../images/arrow-right.png'></image>
+    </view>
+  </view>
+  <view class='qj-quan'>
+    <view class='coupon'>
+      <image src='../../images/coupon.png' class='coupon-img'></image>
+    </view>
+    <view class='qj-xc' bindtap='couponFun'>
+      <view>优惠券</view>
+      <view class='qj-small'>展示您的优惠券 <text class='orange'>{{couquoNumber}}</text> </view>
+    </view>
+    <view>
+      <image class='img-right' src='../../images/arrow-right.png'></image>
+    </view>
+  </view>
+  <view class='qj-yueka'>
+    <view class='coupon'>
+      <image src='../../images/ridingCard.png' class='coupon-img'></image>
+    </view>
+    <view class='qj-xc'>
+      <view>单车月卡</view>
+      <view class='qj-small'> <text class='orange'>{{cardDays}}</text> 天可用单车月卡</view>
+    </view>
+    <view>
+      <image class='img-right' src='../../images/arrow-right.png'></image>
+    </view>
+  </view>
+  <!-- <view></view> -->
+  <view class='login-out' bindtap='signOut'>退出登录</view>
+</view>

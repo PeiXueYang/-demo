@@ -1,0 +1,18 @@
+<!--login  start  -->
+<view>
+  <view class='header'>
+    <image src='../../img/qj-bg.jpg' class='logo'></image>
+  </view>
+  <view class='fa-login'>
+    <input placeholder='请输入手机号' class='login' maxlength='13' placeholder-style='color:grey;font-size:26rpx;' adjust-position confirm-hold='true' auto-focus bindinput='getPhone' value='{{phone}}'></input>
+    <icon class='icon' type="clear" size="18" wx:if='{{iconClear}}' bindtap='clearPhone'></icon>
+    <view class='clear'></view>
+  </view>
+  <view class='fa-pwd'  wx:if='{{showNext}}'>
+    <input placeholder='请输入验证码' class='login-code' maxlength='6' placeholder-style='color:grey;font-size:26rpx;' bindinput='getYzCode'></input>
+    <view class='getcode' bindtap='codeFun'>{{codeText}}</view>
+    <view class='clear'></view>
+  </view>
+  <button class='next {{btn_disable}}' bindtap='nextFun' disabled='{{disabled}}' loading='{{loading}}'>下一步</button>
+</view>
+<!--login end  -->
